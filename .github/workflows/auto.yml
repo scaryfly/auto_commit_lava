@@ -3,7 +3,7 @@ name: Ethereum, NEAR, Starknet, and Axelar Auto Commit
 on:
   push:
     branches:
-      - master
+      - main
 
   schedule:
     - cron: '*/20 * * * *' # Runs every 20 minutes
@@ -26,7 +26,7 @@ jobs:
 
       - name: Pull latest changes
         run: |
-          git pull origin master
+          git pull origin main
 
       - name: Run Ethereum script
         run: |
@@ -59,7 +59,7 @@ jobs:
 
       - name: Push changes
         run: |
-          git push origin master
+          git push origin main
 
   near_auto_commit:
     runs-on: ubuntu-latest
@@ -70,7 +70,7 @@ jobs:
 
       - name: Pull latest changes
         run: |
-          git pull origin master
+          git pull origin main
 
       - name: Run NEAR script
         run: |
@@ -103,7 +103,7 @@ jobs:
 
       - name: Push changes
         run: |
-          git push origin master
+          git push origin main
 
   Starknet_auto_commit:
     runs-on: ubuntu-latest
@@ -114,7 +114,7 @@ jobs:
 
       - name: Pull latest changes
         run: |
-          git pull origin master
+          git pull origin main
 
       - name: Run Starknet script
         run: |
@@ -147,7 +147,7 @@ jobs:
 
       - name: Push changes
         run: |
-          git push origin master
+          git push origin main
 
   axelar_auto_commit:
     runs-on: ubuntu-latest
@@ -158,7 +158,7 @@ jobs:
 
       - name: Pull latest changes
         run: |
-          git pull origin master
+          git pull origin main
 
       - name: Run Axelar script
         run: |
@@ -191,4 +191,4 @@ jobs:
 
       - name: Push changes
         run: |
-          git push origin master
+          git push origin main
