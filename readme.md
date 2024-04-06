@@ -8,9 +8,9 @@ To use this workflow, follow these steps:
 
 2. **Name your repository**: Give your new repository a name of your choice.
 
-3. **Configure workflow**: After creating the repository, navigate to the Actions tab and click on "Set up a workflow yourself". Copy and paste the content of the `main.yml` file from this repository into the editor.
+3. **Configure workflow**: After creating the repository, navigate to the Actions tab and click on "Set up a workflow yourself". Copy and paste the content of the `auto.yml` file from this repository into the editor.
 
-4. **Set user email and name**: Update the `GIT_USER_EMAIL` and `GIT_USER_NAME` environment variables in the workflow file (`main.yml`) to reflect your GitHub account details.
+4. **Set user email and name**: Update the `GIT_USER_EMAIL` and `GIT_USER_NAME` environment variables in the workflow file (`auto.yml`) to reflect your GitHub account details.
 
 5. **Update RPC URLs**: Update the RPC URLs in each script file (`ethereum.sh`, `near.sh`, `starknet.sh`, and `axelar.sh`) with the corresponding URLs of your blockchain networks.
 
