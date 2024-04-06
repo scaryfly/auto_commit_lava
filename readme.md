@@ -12,7 +12,7 @@ To use this workflow, follow these steps:
 
 4. **Set user email and name**: Update the `GIT_USER_EMAIL` and `GIT_USER_NAME` environment variables in the workflow file (`auto.yml`) to reflect your GitHub account details.
 
-5. **Update RPC URLs**: Update the RPC URLs in each script file (`ethereum.sh`, `near.sh`, `starknet.sh`, and `axelar.sh`) with the corresponding URLs of your blockchain networks.
+5. **Update RPC URLs**: Update the RPC URLs in each script file (`eth.sh`, `near.sh`, `starknet.sh`, and `axelar.sh`) with the corresponding URLs of your blockchain networks.
 
 6. **Run the workflow**: The workflow is triggered automatically on a schedule (every 15-20 minutes) and can also be manually triggered from the GitHub UI.
 
